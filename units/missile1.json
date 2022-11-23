@@ -15,8 +15,9 @@
   },
   "bullet": {
   "sprite": "missile1"
-  "killShooter: true
+  "killShooter": true
   "hittable": false
+  "instantDisappear": true
   "collidesAir": true
   "splashDamage": 240
   "splashDamageRadius": 128
