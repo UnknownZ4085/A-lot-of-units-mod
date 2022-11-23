@@ -5,15 +5,15 @@
     {
       "shootOnDeath": true,
       "reload": 24,
-      "shootCone" 180,
+      "shootCone": 180,
       "shots": 10,
-      "shotDelay" 0,
+      "shotDelay": 0,
       "rotate": false,
       "mirror": false,
       "x": 0,
       "y": 0,
       "bullet": {
-        "killShooter: true,
+        "killShooter": true,
         "instantDisappear": true,
         "hittable": false,
         "collidesAir": true,
