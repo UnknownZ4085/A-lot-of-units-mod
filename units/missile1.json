@@ -1,0 +1,27 @@
+"name": "missile1"
+"template": "MissileUnitType"
+"weapons": [
+  {
+    "shootOnDeath": true
+    "reload": 24
+    "shootCone" 180
+    "shots": 10
+    "shotDelay" 0
+    "rotate": false
+    "mirror": false
+    "barrels": 1
+    "x": 0
+    "y": 0
+  },
+  "bullet": {
+  "sprite": "missile1"
+  "killShooter: true
+  "hittable": false
+  "collidesAir": true
+  "splashDamage": 240
+  "splashDamageRadius": 128
+  "speed": 0
+  "collidesTiles": false
+  "collides": false
+  },
+]
