@@ -1,0 +1,22 @@
+{
+    displayName : units mod
+    name : name
+
+    author:
+        '''
+        
+ unknown
+ 
+        '''
+
+    description:
+        '''
+        
+        Units
+ 
+        '''
+
+    subtitle: "UNITS MOD"
+    minGameVersion : 140
+    version : "0.1"
+}
