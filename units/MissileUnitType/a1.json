@@ -1,0 +1,75 @@
+{
+  "type": "flying",
+  "flying": true
+  "drag": 0.1
+  "localizedName": "Missile unit 1",
+  "description": "Shoot",
+  
+  "canDrown": false,
+  "drownTimeMultiplier": 999999999
+  
+  "payloadCapacity": 0
+  
+  "pickupUnits": false
+  
+  "armor": 20,
+  "health": 5520,
+  "speed": 2.5,
+  
+  //this unit's body can go over most terrain with this set to true.
+  "hovering": true
+  
+  //status effects that this unit is immune to.
+  "immunities": ["burning", "melting", "unmoving", "electrified", "tarred", ],
+
+  "itemCapacity": 0,
+
+  "buildSpeed": 0
+
+  //all of the weapons this unit shoots with.
+  "weapons": [
+    {    
+     "name": "a1-missile"
+     "mirror": true
+      "recoil": 0.1
+      "targetAir": true
+      "shake": 0
+      "rotateSpeed": 1
+      "unitSort": "strongest"
+      "rotate": true
+      "x": 4
+      "y": 0
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 3,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "MissileLaunch",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.   
+       "bullet": {
+       "instantDisappear": true,
+       "speed": 0,
+       "damage": 0,
+       "spawnUnit": "missile1"
+           }
+        
+        }
+   ],
+ 
+  //thing that has to be researched in order for this unit to be researched in the research tree.
+  "research": "",
+  
+  //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
+  "hitSize": 4,
+}
