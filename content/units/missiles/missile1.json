@@ -2,7 +2,6 @@
   "name": "missile1",
   "template": "MissileUnitType",
   "outlines": false,
-  "lifetime": 2,
   "weapons": [
     {
       "shootOnDeath": true,
@@ -18,7 +17,6 @@
         "killShooter": true,
         "instantDisappear": true,
         "hittable": false,
-        "targetable": false,
         "collidesAir": true,
         "splashDamage": 500,
         "splashDamageRadius": 128,
