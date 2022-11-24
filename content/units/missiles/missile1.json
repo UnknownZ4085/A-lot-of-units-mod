@@ -2,7 +2,7 @@
   "name": "missile1",
   "template": "MissileUnitType",
   "outlines": false,
-  "lifetime": 0.1
+  "physics": true
   "weapons": [
     {
       "shootOnDeath": true,
