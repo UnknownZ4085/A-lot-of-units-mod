@@ -1,14 +1,14 @@
 {
   "name": "missile1",
   "template": "MissileUnitType",
-  "outlines": false
-  "lifetime": 2
+  "outlines": false,
+  "lifetime": 2,
   "weapons": [
     {
       "shootOnDeath": true,
-      "reload": 24,
+      "reload": 0,
       "shootCone": 180,
-      "shots": 10,
+      "shots": 2,
       "shotDelay": 0,
       "rotate": false,
       "mirror": false,
@@ -20,7 +20,7 @@
         "hittable": false,
         "targetable": false,
         "collidesAir": true,
-        "splashDamage": 240,
+        "splashDamage": 500,
         "splashDamageRadius": 128,
         "speed": 0,
         "collidesTiles": false
