@@ -42,7 +42,7 @@
       "unitSort": "strongest"
       "rotate": true
       "x": 4
-      "y": 0
+      "y": 2
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
@@ -62,7 +62,7 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.   
        "bullet": {
-        "sprite": "b"
+        "sprite": "bullet1"
         "type": "BasicBulletType",
         "damage": 1100,
         "speed": 1.2
