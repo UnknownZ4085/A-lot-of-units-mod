@@ -3,6 +3,8 @@
   "template": "MissileUnitType",
   "outlines": false,
   "physics": true
+  "lifetime": 0
+  "circleTarget": true
   "weapons": [
     {
       "shootOnDeath": true,
