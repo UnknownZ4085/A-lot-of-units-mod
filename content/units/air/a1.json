@@ -52,7 +52,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 30
+      "reload": 5
     
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -64,6 +64,7 @@
        "bullet": {
        "instantDisappear": true,
        "speed": 0,
+       "lifetime": 120
        "damage": 0,
        "spawnUnit": "missile1"
            }
