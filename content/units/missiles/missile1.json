@@ -1,6 +1,7 @@
 {
   "name": "missile1",
   "template": "MissileUnitType",
+  "outlines": false
   "lifetime": 2
   "weapons": [
     {
@@ -14,10 +15,6 @@
       "x": 0,
       "y": 0,
       "bullet": {
-        "type": "LaserBulletType",
-        "colors": [ "F154545C" ]
-        "length": 80,
-        "width": 8
         "killShooter": true,
         "instantDisappear": true,
         "hittable": false,
