@@ -15,7 +15,7 @@
       "y": 0,
       "bullet": {
         "type": "LaserBulletType",
-        "colors": Color[ "F154545C" ]
+        "colors": "color"[ "F154545C" ]
         "length": 80,
         "width": 8
         "killShooter": true,
