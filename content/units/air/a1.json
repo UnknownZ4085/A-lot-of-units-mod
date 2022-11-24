@@ -1,6 +1,7 @@
 {
   "type": "flying",
   "flying": true
+  "outlines": false
   "controller": "DefenderAI"
   "drag": 0.1
   "localizedName": "Missile unit 1",
