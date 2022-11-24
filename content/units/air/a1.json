@@ -35,22 +35,22 @@
       "recoil": 0.1
       "targetAir": true
       "shake": 0
-      "rotateSpeed": 1
+      "rotateSpeed": 10000000000000000
       "unitSort": "strongest"
       "rotate": true
       "x": 4
       "y": 0
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 1,
+        "shots": 5,
         "barrels": 1,
         "spread": 0,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 7,
-        
+      "reload": 30
+    
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
       
