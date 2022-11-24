@@ -1,0 +1,84 @@
+{
+  "type": "flying",
+  "flying": true
+  "outlines": false
+  "engineSize": 0
+  "controller": "DefenderAI"
+  "autoFindTarget": true
+  "drag": 0.2
+  "localizedName": "Bullet unit 1",
+  "description": "Shoot",
+  
+  "canDrown": false,
+  "drownTimeMultiplier": 999999999
+  
+  "payloadCapacity": 0
+  
+  "pickupUnits": false
+  
+  "armor": 120,
+  "health": 55520,
+  "speed": 2.5,
+  
+  //this unit's body can go over most terrain with this set to true.
+  "hovering": true
+  
+  //status effects that this unit is immune to.
+  "immunities": ["burning", "melting", "unmoving", "electrified", "tarred", ],
+
+  "itemCapacity": 0,
+
+  "buildSpeed": 0
+
+  //all of the weapons this unit shoots with.
+  "weapons": [
+    {    
+     "name": "a2-gun"
+     "mirror": true
+      "recoil": 0.2
+      "targetAir": true
+      "shake": 0
+      "rotateSpeed": 10000000000000000
+      "unitSort": "strongest"
+      "rotate": true
+      "x": 4
+      "y": 0
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 3
+    
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "ShootBig",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.   
+       "bullet": {
+        "sprite": "rb"
+        "type": "BasicBulletType",
+        "damage": 1100,
+        "speed": 1.
+        "height": 10,
+        "width": 10,
+        "shrinkY": 0,
+        "splashDamageRadius": 111,
+        "splashDamage": 100,
+           }
+        
+        }
+   ],
+ 
+  //thing that has to be researched in order for this unit to be researched in the research tree.
+  "research": "",
+  
+  //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
+  "hitSize": 4,
+}
