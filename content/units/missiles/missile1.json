@@ -1,6 +1,6 @@
 {
   "name": "missile1",
-  "type": "MissileUnitType",
+  "template": "MissileUnitType",
   "outlines": false,
   "lifetime": 1
   "physics": true
