@@ -49,7 +49,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 3,
+      "reload": 7,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
