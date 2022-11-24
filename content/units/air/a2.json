@@ -62,10 +62,10 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.   
        "bullet": {
-        "sprite": "rb"
+        "sprite": "b"
         "type": "BasicBulletType",
         "damage": 1100,
-        "speed": 1.
+        "speed": 1.2
         "height": 10,
         "width": 10,
         "shrinkY": 0,
