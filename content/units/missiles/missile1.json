@@ -2,7 +2,7 @@
   "name": "missile1",
   "template": "MissileUnitType",
   "outlines": false,
-  "physics": false
+  "physics": false,
   "circleTarget": true
   "weapons": [
     {
