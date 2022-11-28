@@ -62,7 +62,7 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.   
        "bullet": {
-        "sprite": "bullet1"
+        "sprite": "um-bullet1"
         "type": "BasicBulletType",
         "damage": 1100,
         "speed": 1.2
