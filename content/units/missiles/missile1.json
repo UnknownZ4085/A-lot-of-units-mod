@@ -1,9 +1,10 @@
 {
   "name": "missile1",
   "template": "MissileUnitType",
+  "lifetime": 100,
   "outlines": false,
   "physics": false,
-  "circleTarget": true
+  "circleTarget": false
   "weapons": [
     {
       "shootOnDeath": true,
