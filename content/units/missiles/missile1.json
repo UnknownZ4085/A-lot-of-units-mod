@@ -1,6 +1,7 @@
 {
   "name": "missile1",
   "template": "MissileUnitType",
+  "type": "flying",
   "lifetime": 100,
   "outlines": false,
   "physics": false,
