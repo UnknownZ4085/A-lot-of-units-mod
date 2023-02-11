@@ -1,23 +1,25 @@
 {
   "name": "missile1",
   "template": "MissileUnitType",
-  "type": "flying",
+  "type": "MissileUnitType",
   "lifetime": 100,
+  "speed": 10,
+  "flying": true,
   "outlines": false,
-  "physics": false,
+  "deathExplosionEffect": "massiveExplosion"
   "circleTarget": false
   "weapons": [
     {
       "shootOnDeath": true,
-      "reload": 0,
+      "reload": 1,
       "shootCone": 180,
       "shots": 2,
-      "shotDelay": 0,
       "rotate": false,
       "mirror": false,
       "x": 0,
       "y": 0,
       "bullet": {
+        "type": "ExplosionBulletType"
         "killShooter": true,
         "instantDisappear": true,
         "hittable": false,
